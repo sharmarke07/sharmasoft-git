@@ -1,0 +1,115 @@
+body {
+  background-image: url("wonder.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  animation: animate 16s ease-in-out infinite;
+}
+
+/* halkan ayuu ka bilaabmaa headerka */
+
+header {
+  max-width: 1200px;
+  /* border: 1px solid pink; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.logo {
+  margin-top: 15px;
+  /* padding: 10px; */
+}
+h1 {
+  text-shadow: 5px 10px 7px black;
+}
+span {
+  color: rgb(255, 239, 17);
+}
+@media (max-width: 844px) (min-width: 390px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+nav {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* border: 1px solid blue; */
+}
+ul {
+  /* border: 1px solid purple; */
+  list-style-type: none;
+  display: flex;
+}
+li {
+  margin: 10px;
+}
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+  /* padding: 10px; */
+}
+
+@media (max-width: 650px) {
+  ul {
+    flex-direction: column;
+    margin-right: 20px;
+  }
+}
+@keyframes animate {
+  0%,
+  100% {
+    background-image: url("image\ 3.jpg");
+  }
+  25% {
+    background-image: url("image4.jpeg");
+  }
+  50% {
+    background-image: url("image1.jpg");
+  }
+  75% {
+    background-image: url("menu3.jpg");
+  }
+  100% {
+    background-image: url("menu2.jpg");
+  }
+}
+
+/* halkan ayuu ku dhamaadaa headerka */
+section {
+  max-width: 1200px;
+  /* border: 2px solid red; */
+  margin: 200px;
+  text-align: center;
+}
+.content {
+  /* border: 3px solid blue; */
+  margin: 10px;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  margin: 10px;
+}
+
+button {
+  /* border: 3px solid greenyellow; */
+  background-color: rgb(240, 96, 40);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
